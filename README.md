@@ -1,7 +1,6 @@
 # Practice01 of Git/Github Workshop
 
 # Set-up Your Environment
----------------------------
 1. Clone the repository with `git clone https://github.com/donnelldebnam/Practice01`
 2. Find the cloned repository with `cd ./Documents/GitHub/Practice01/src`
 3. Change origin with `git remote set-url origin https://github.com/donnelldebnam/Practice01`
