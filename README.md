@@ -7,7 +7,7 @@
 3. Change origin with `git remote set-url origin https://github.com/donnelldebnam/Practice01`
 
 
-## Exersice01 
+## Exercise01 
 ----------------
 <b>Task 1:</b> Create a new branch called ```solution01``` to solve Exercise01
 
@@ -20,7 +20,7 @@
 1. Change back to master branch with ```git checkout master```
 2. Pull in new local changes using ```git pull```
 
-## Exersice02
+## Exercise02
 ----------------
 <b>Task 1:</b> Create a new branch called ```solution02``` to solve Exercise01
 
