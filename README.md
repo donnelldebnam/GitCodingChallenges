@@ -3,14 +3,14 @@
 # Set-up Your Environment
 1. Fork this repository to your account
 2. Clone the forked repository on your account with `git clone https://github.com/USERNAME/Practice01`
-3. Find the cloned repository with `cd ./Documents/GitHub/Practice01/src
+3. Find the cloned repository with `cd ./Documents/GitHub/Practice01/src/`
 4. Verify your repository as the remote `git remote -v` --> should show link with your username
 5. Begin Exercise01 Task 1
 
 
 ## Exercise01 
 
-<b>Task 1: </b> Debug the Java program found in ```Exercise01.java```. Be sure to compile this program when you think you have the solution
+<b>Task 1: </b> Debug the Java program found in ```Exercise01/Exercise01.java```. Be sure to compile this program when you think you have the solution
 
 <b>Task 2: </b> Add all changed files to be commited
 
