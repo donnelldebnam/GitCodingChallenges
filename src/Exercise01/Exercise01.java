@@ -1,7 +1,7 @@
 public class Exercise01 {
 
 	public static void main(String[] args) {
-
+		//Stephen
 		// Test bytes
 		byte a = 010;
 		byte b = 101;
