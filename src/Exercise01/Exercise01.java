@@ -7,7 +7,7 @@ public class Exercise01 {
 		byte b = 101;
 
 		// "Add" function
-		byte sum = add(a, b);
+		int sum = add(a, b);
 		System.out.println("This sum of bytes a and b is: " + sum);
 
 	}
