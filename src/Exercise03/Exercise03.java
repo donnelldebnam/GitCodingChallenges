@@ -7,15 +7,15 @@ import java.util.*;
 
 public class Exercise03 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws NullPointerException{
 
 		Vehicle car = new Vehicle("2006 Honda Accord", "", 990);
+		
+      car.licensePlate = "9650H";
 
-		car.licensePlate = "1137HH";
+		car.drive(-4376, 9902);
 
-		car.drive(-4376, 9900);
-
-		System.out.println("We're now at " + car.locate());
+		System.out.println("We're now at " + car.locate().toString());
 
 	}
 
