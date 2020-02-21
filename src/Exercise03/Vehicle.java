@@ -1,3 +1,4 @@
+import java.lang.Math;
 /**
  * This is the "Vehicle" class. We'll use this to later create an instance
  * of the class and have the option to change the license plates, drive,
@@ -21,6 +22,12 @@ public class Vehicle {
 		// to account for the amount of new milage. Use the value to then update
 		// the previous milage.
 		location = new Location(latitude, longitude);
+		long x_one = this.location.getLatitude();
+		long x_two = location.getLatitude();
+		long y_one = this.location.getLongitude();
+		long y_two = location.getLongitude();
+		
+		milage += Math.sqrt(Math.pow(x_two - x_one, 2)- (Math.pow(y_two - y_one, 2)));
 	}
 
 	void changePlates(String lplate) {
@@ -33,6 +40,22 @@ public class Vehicle {
 
 	Location locate() {
 		return location;
+	}
+
+	public String getLicensePlate() {
+		return licensePlate;
+	}
+
+	public void setLicensePlate(String plate) {
+		licensePlate = plate;
+	}
+
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String mod) {
+		model = mod;
 	}
 	
 }

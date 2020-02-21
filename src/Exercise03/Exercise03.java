@@ -11,7 +11,7 @@ public class Exercise03 {
 
 		Vehicle car = new Vehicle("2006 Honda Accord", "", 990);
 
-		car.licensePlate = "1137HH";
+		car.setLicensePlate("1137HH");
 
 		car.drive(-4376, 9900);
 
