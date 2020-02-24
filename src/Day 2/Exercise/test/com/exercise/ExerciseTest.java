@@ -6,10 +6,13 @@ import static org.junit.Assert.*;
 public class ExerciseTest {
 
     @Test
-    public void testHelloWorld() {
+    public void testHelloWorld() throws Throwable {
+
         Exercise test = new Exercise();
         String result = test.HelloWorld();
 
         assertEquals("Hello World.", result);
+
     }
+
 }
