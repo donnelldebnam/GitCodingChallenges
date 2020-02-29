@@ -27,7 +27,7 @@ You'll want to write SQL code to create the following:
 5. Copy all of your code and paste it into ```Day 3/Exercise.sql```. The code should start with
 creating your tables, then inserting the data/records, and lastly executing your query
 
-6. Add this file, commit it, and then push
+6. `add` this file, `commit` it, and then `push`
 
 7. Open a pull request explaining what you've done
 
