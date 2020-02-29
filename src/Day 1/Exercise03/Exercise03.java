@@ -11,9 +11,9 @@ public class Exercise03 {
 
 		Vehicle car = new Vehicle("2006 Honda Accord", "", 990);
 
-		car.licensePlate = "1137HH";
+		car.licensePlate = "2244YB";
 
-		car.drive(-4376, 9900);
+		car.drive(-5389, 4362);
 
 		System.out.println("We're now at " + car.locate());
 
