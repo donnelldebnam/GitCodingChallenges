@@ -1,4 +1,4 @@
-## Day 3 Exercise
+## Day 3 Exercise (SQL & Databases)
 
 ### Tasks
 
