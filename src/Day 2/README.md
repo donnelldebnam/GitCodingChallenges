@@ -1,4 +1,4 @@
-## Day 2 Exercise
+## Day 2 Exercise (Unit Testing with JUnit 4)
 
 ### Before You Begin...
 
