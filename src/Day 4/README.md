@@ -11,10 +11,15 @@ Think of dynamic programming as the computer's brain that you actually have acce
 ### Before You Begin...
 
 * If this is your first exercise, fork the root repository and clone the repo to your account with 
-`git clone https://github.com/<YOUR_USERNAME>/GitCodingChallenges`
+  ```
+  git clone https://github.com/<YOUR_USERNAME>/GitCodingChallenges
+  ```
 
-* After cloning, make sure the remote is set to your account with `git remote -v` <-- this should return
-a link with your username in it
+* After cloning, make sure the remote is set to your account with:
+  ```
+  git remote -v
+  ``` 
+  which should return a link to the GitHub repository with your username in it
 
 ### Your Tasks
 
