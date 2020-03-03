@@ -7,12 +7,12 @@
 
 * If this is your first exercise, fork the root repository and clone the repo to your account with 
   ```
-  git clone https://github.com/<YOUR_USERNAME>/GitCodingChallenges
+  $ git clone https://github.com/<YOUR_USERNAME>/GitCodingChallenges
   ```
 
 * After cloning, make sure the remote is set to your account with:
   ```
-  git remote -v
+  $ git remote -v
   ``` 
   which should return a link to the GitHub repository with your username in it
 
