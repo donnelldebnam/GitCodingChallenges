@@ -1,4 +1,17 @@
-## Day 3 Exercise
+## Day 3 Exercise (SQL & Databases)
+
+### Before You Begin...
+
+* If this is your first exercise, fork the root repository and clone the repo to your account with 
+  ```
+  git clone https://github.com/<YOUR_USERNAME>/GitCodingChallenges
+  ```
+
+* After cloning, make sure the remote is set to your account with:
+  ```
+  git remote -v
+  ``` 
+  which should return a link to the GitHub repository with your username in it
 
 ### Tasks
 
