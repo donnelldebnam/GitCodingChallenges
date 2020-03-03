@@ -1,4 +1,4 @@
-# Git/Github Workshop Series
+# Git/GitHub Workshop Series
 
 # Set-up Your Environment
 1. Fork this repository to your account
