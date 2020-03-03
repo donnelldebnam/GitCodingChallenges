@@ -9,8 +9,8 @@ applications such as neural networks.
 ### What are we using this for?
 
 We'll be using TensorFlow's Keras API for building and training deep learning models. We do this by 
-importing one of the supported datasets, in our case MNist, and then create a neural network to
-train the network and later test its accuracy.
+importing one of the supported datasets, in our case MNist, and then working to train the network 
+and ultimately test its accuracy.
 
 ### Before You Begin...
 
