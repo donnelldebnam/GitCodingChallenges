@@ -24,7 +24,7 @@ x_train = tf.keras.utils.normalize(x_train, axis=1)
 x_test = tf.keras.utils.normalize(x_test, axis=1)
 
 #
-# For out neural network, we'll just use the simplest type of network, a Sequential
+# For the neural network, we'll just use the simplest type of network, a Sequential
 # multi-layer perceptron. This is simply a model in which the layers are a linear stack.
 #
 model = tf.keras.models.Sequential()
