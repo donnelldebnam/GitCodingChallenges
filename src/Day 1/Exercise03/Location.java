@@ -16,5 +16,7 @@ public class Location {
      * Task 2: Add a function here to print location in the format of 
      * "(latitude, longitude)" (Hint: toString)
      */
+    
+    Location(38.8951, -77.0364 );
 
 }
