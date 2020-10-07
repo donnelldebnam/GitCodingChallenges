@@ -5,16 +5,28 @@
 public class Location {
 
     private long latitude = 0;
-    private long longititude = 0;
+    private long longitude = 0;
 
-    public Location(long latitude, long longititude) {
+    public Location(long latitude, long longitude) {
         this.latitude = latitude;
-        this.longititude = longititude;
+        this.longitude = longitude;
     }
 
     /**
      * Task 2: Add a function here to print location in the format of 
      * "(latitude, longitude)" (Hint: toString)
      */
+     
+    public String toString() {
+      return "(" + latitude + ", " + longitude + ")";
+    }
+    
+    public long getLatitude() {
+      return latitude;
+    }
+    
+    public long getLongitude() {
+      return longitude;
+    }
 
 }
