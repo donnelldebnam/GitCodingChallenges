@@ -16,5 +16,17 @@ public class Location {
      * Task 2: Add a function here to print location in the format of 
      * "(latitude, longitude)" (Hint: toString)
      */
+     
+    public String toString() {
+      return "(" + latitude + ", " + longitude + ")";
+    }
+    
+    public long getLatitude() {
+      return latitude;
+    }
+    
+    public long getLongitude() {
+      return longitude;
+    }
 
 }

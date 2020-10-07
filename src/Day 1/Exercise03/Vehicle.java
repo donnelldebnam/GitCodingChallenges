@@ -5,21 +5,27 @@
  */
 public class Vehicle {
 
-	private long milage = 0;
+	private long mileage = 0;
 	private String licensePlate = "";
 	private String model = "";
-	private Location location;
+	private Location location = new Location(0, 0);
 
-	public Vehicle(String model, String licensePlate, long milage) {
+	public Vehicle(String model, String licensePlate, long mileage) {
 		this.model = model;
 		this.licensePlate = licensePlate;
-		this.milage = milage;
+		this.mileage = mileage;
 	}
 
 	void drive(long latitude, long longitude) {
 		// Task 1: Implement a function that uses the old latitude and longitude
 		// to account for the amount of new milage. Use the value to then update
-		// the previous milage.
+		// the previous mileage.
+      double xDiff = Math.abs(latitude - location.getLatitude());
+      double yDiff = Math.abs(longitude - location.getLongitude());
+      double distance = Math.sqrt(Math.pow(xDiff, 2) + Math.pow(yDiff, 2));
+      
+      mileage += distance;
+      
 		location = new Location(latitude, longitude);
 	}
 
@@ -27,8 +33,8 @@ public class Vehicle {
 		this.licensePlate = licensePlate;
 	}
 
-	long getMilage() {
-		return milage; 
+	long getMileage() {
+		return mileage; 
 	}
 
 	Location locate() {
