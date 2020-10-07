@@ -23,7 +23,7 @@ public class Vehicle {
 		location = new Location(latitude, longitude);
 	}
 
-	void changePlates(String lplate) {
+	void changePlates(String licensePlate) {
 		this.licensePlate = licensePlate;
 	}
 
