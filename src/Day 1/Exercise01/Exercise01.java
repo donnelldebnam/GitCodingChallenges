@@ -12,7 +12,7 @@ public class Exercise01 {
 
 	}
 
-	static int add(byte a, byte b) {
+	static char add(byte a, byte b) {
 		return (byte)(a + b);
 	}
 
